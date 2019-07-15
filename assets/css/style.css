@@ -1,7 +1,64 @@
 body {
-    background: yellowgreen;
+    background-image: url("../images/lilypads.png");
 }
 
 #submitButton {
     display: none;
+}
+
+input[type=radio] {
+    padding: 20px;
+    margin: 10px;
+}
+
+#game {
+    background-color: #aae6e4;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#button {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#description {
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+#timer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#pictures {
+    text-align: center;
+}
+
+img {
+    width: 24%;
+}
+
+#submitButton {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+#results {
+    background-color: silver;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
 }
