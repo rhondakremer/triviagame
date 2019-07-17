@@ -20,7 +20,7 @@ $(document).ready(function () {
             correct: "Mechoopda Maidu"
         },
         {
-            question: "Chico is home to the world's largest _____",
+            question: "Chico is home to the world's largest _____.",
             choices: ["Butter churn", "Gold nugget", "Yo-yo", "Slinky"],
             correct: "Yo-yo",
         }
@@ -58,9 +58,7 @@ $(document).ready(function () {
     }
 
 
-
-
-    var timeLeft = 10;
+    var timeLeft = 60;
     var timer;
 
     function countdown() {
@@ -85,9 +83,6 @@ $(document).ready(function () {
         incorrect: 0,
         counter: 10
     }
-
-    //var radioButton = [card.children("input:checked").val()];
-    //var radioButton = $('input[type=radio]:checked').val();
 
     function compareAnswers() {
         for (let i = 0; i < questions.length; i++) {
